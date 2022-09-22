@@ -1,38 +1,312 @@
-.App {
-  text-align: center;
+body { 
+  overflow-x: hidden; 
+  /*background-image: url("images/background.jpeg"); /* Links to your background image, which you can also replace with a URL. */
+  background-color: #ECF1FD;
+  background-size: cover; /* Image covers page. */
+	background-repeat: no-repeat; /* Image does not repeat. */
+	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+	background-position: top;
+	text-align: center;
+	color: white; /* Text color. */
+	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+position: absolute;
+top: 300%;
+left: 0%;
+width: 100%;
+height: 20rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footerLinks {
+  top: 10%;
+  width: 10%;
+  height: 80%;
+  position: relative;
+  left: 15%;
+  text-align: left;
+  color: black;
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footerEmail {
+  top: 10%;
+  width: 45%;
+  height: 80%;
+  position: relative;
+  left: 18%;
+  text-align: left;
+  color: black;
+  float: left;
+}
+
+.footerBuilt {
+  top: 10%;
+  width: 10%;
+  height: 80%;
+  position: relative;
+  left: -22%;
+  text-align: left;
+  color: black;
+  float: right;
+}
+
+.topFooter {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  z-index: 15;
+}
+
+nav {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  top: 0;
+  color: #ffff;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px rgba(red, green, blue, alpha);
+}
+
+.navBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 0.4rem;
 }
 
-.App-link {
-  color: #61dafb;
+nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  color: #4a4a4a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rocks {
+  position: absolute;
+  top: 5%;
+  left: 37%;
+  overflow:hidden;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #4a4a4a;
+}
+
+h3 {
+  text-align: center;
+  color: #04AB8C;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a:link{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #04AB8C;
+}
+
+/* selected link */
+a:active {
+  color: #04AB8C;
+}
+
+.title {
+  position: absolute;
+  height: 20rem;
+  width: 30rem;
+  top: 30%;
+  left: 20%;
+  color: #828282;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.description {
+  position: absolute;
+  top: 31%;
+  left: 0%;
+}
+
+.downloadCV {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+}
+
+.frontLinks {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 88%;
+  left: 6%;
+}
+
+.padding {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.textSection {
+  top:10%;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.textRight {
+  width: 45%;
+  float: right;
+  text-align: left;
+  height: 100%;
+}
+
+.tree {
+  width: 50%;
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: transform .2s; /* Animation */
+}
+
+.project1 {
+  width: 20%;
+  height: 65%;
+  top: 10%;
+  left: 10%;
+  text-align: left;
+  background-color: #d0d0d0;
+  position: relative;
+  padding: 1%;
+  color: #828282;
+  transition: transform .2s; /* Animation */
+  border-radius: 20px;
+  float: left;
+}
+
+.project2 {
+  width: 20%;
+  height: 65%;
+  top: 10%;
+  left: 17%;
+  text-align: left;
+  background-color: #d0d0d0;
+  position: relative;
+  padding: 1%;
+  color: #828282;
+  transition: transform .2s; /* Animation */
+  border-radius: 20px;
+  float: left;
+}
+
+.project3 {
+  width: 20%;
+  height: 65%;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+  background-color: #d0d0d0;
+  position: relative;
+  padding: 1%;
+  color: #828282;
+  transition: transform .2s; /* Animation */
+  border-radius: 20px;
+  float: right;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  z-index: 1;
+  background-color: white;
+  color: #828282;
+}
+
+.projects {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 200%;
+  left: 0%;
+  color: #828282;
+  background-color: white;
+  text-align: left;
+}
+
+.projectsTitle {
+  position: relative;
+  top: 0%;
+  left: 10%;
+  width: 30%;
+  height: 5%;
+}
+
+.blogs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300%;
+  left: 0%;
+  z-index: 1;
+  background-color: white;
+  color: #828282;
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 400%;
+  left: 0%;
+  color: #828282;
+  background-color: white;
+}
+
+.project1:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.project2:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.project3:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.tree:active {
+  transform: scale(0.01);
+}
+
+.roundCorners{
+  border-radius:5%;
+  overflow:hidden;
 }
