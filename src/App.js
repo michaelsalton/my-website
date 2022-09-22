@@ -12,6 +12,8 @@ import resume from './images/michaelsalton_resume.pdf';
 import tree from './images/tree.png';
 import map from './images/map.png';
 import ue4 from './images/ue4.png';
+import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   return (
