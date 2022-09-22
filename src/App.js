@@ -21,7 +21,7 @@ function App() {
           <div class="navBox">
             <ul>
               <li>
-                <a href="#home">HOME</a>
+                <a href="#home">BEEBOOP</a>
               </li>
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#projects">PROJECTS</a></li>
