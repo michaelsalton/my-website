@@ -121,6 +121,11 @@ li {
 a:link{
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
+  color:#4a4a4a;
+}
+
+a:visited {
+  color:#4a4a4a;
 }
 
 /* mouse over link */

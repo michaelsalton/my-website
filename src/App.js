@@ -8,10 +8,11 @@ import tiktok from './images/tiktok.png';
 import youtube from './images/youtube.png';
 import rocks from './images/rocks.png';
 import cv from './images/CV.png';
-import resume from './images/michaelsalton_resume.pdf';
+import resume from './images/michael_salton_resume.pdf';
 import tree from './images/tree.png';
 import map from './images/map.png';
 import ue4 from './images/ue4.png';
+import website from './images/website.png';
 
 function App() {
   return (
@@ -21,11 +22,11 @@ function App() {
           <div class="navBox">
             <ul>
               <li>
-                <a href="#home">BEEBOOP</a>
+                <a href="#home">HOME</a>
               </li>
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#contact">CONTACt</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
           </div>
         </nav>
@@ -67,7 +68,6 @@ function App() {
               <img class = "padding" src={youtube} alt="" width="15" height="15"/>
             </a>
           </div> {/* End of frontLinks div*/}
-          <img class = "rocks" src={rocks} alt="" width="1000" height="1000"/>
         </main>
 
         <div class ="about" id="about">
@@ -83,7 +83,7 @@ function App() {
               video game development. I am profficient with a multitude of languages and software including:
               Java, Python, C, C#, C++, Swift, React, HTML, CSS, Unix/Linux, Unreal Engine, Unity, 
               Arm Assembly, and more.</p>
-              <p> I am currently working as a software developer team lead at Peavey Industries L.P. Here,
+              <p> I am currently working as an Application Developer at Peavey Industries L.P. Here,
                  I founded a new development team that works on creating warehouse software applications
                 related to inventory management, databases, and navigation.</p>
               <p> I am currently looking for 2023 internship opportunities.</p>
@@ -115,7 +115,11 @@ function App() {
             </div>
 
             <div class="project3">
-              
+            <img src={website} alt="" width="100%" height="55%" class="roundCorners"/>
+            <h3> Personal Website </h3>
+              <p> My personal website I made using React, HTML, and CSS.
+                I plan to continue to improve my website as my web development skills evolve.
+              </p>
             </div>
           </div>
         </div>  {/* End of projects div */}
@@ -130,12 +134,24 @@ function App() {
 
         <footer>
           <div class="footerLinks">
-            <p> LinkedIn </p>
-            <p> GitHub </p>
-            <p> TikTok </p>
-            <p> YouTube </p>
-            <p> Instagram </p>
-            <p> Email </p>
+            <a href="https://www.linkedin.com/in/msalton/">
+              <p> LinkedIn </p>
+            </a>
+            <a href="https://github.com/michaelsalton">
+              <p> GitHub </p>
+            </a>
+            <a href="https://www.tiktok.com/@michaelsalton">
+              <p> TikTok </p>
+            </a>
+            <a href="https://www.youtube.com/c/MichaelSalton">
+              <p> YouTube </p>
+            </a>
+            <a href="https://www.instagram.com/michaelsalton_/">
+              <p> Instagram </p>
+            </a>
+            <a href="mailto: msalton6@gmail.com">
+              <p> Email </p>
+            </a>
           </div>
           <div class="footerEmail">
             <p> Contact me on any social media or send me an email at 
