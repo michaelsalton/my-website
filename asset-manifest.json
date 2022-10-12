@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.16020c62.css",
-    "main.js": "/my-website/static/js/main.cb7925a7.js",
+    "main.css": "/my-website/static/css/main.9cb2e2cb.css",
+    "main.js": "/my-website/static/js/main.ba56ceef.js",
     "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
+    "static/media/car.png": "/my-website/static/media/car.44da0e89bcb495c6c0d5.png",
     "static/media/tree.png": "/my-website/static/media/tree.2322c879b508944fdfa6.png",
     "static/media/map.png": "/my-website/static/media/map.8c9e40484cd8ccaee93f.png",
     "static/media/ue4.png": "/my-website/static/media/ue4.cacfbed896d71abd43a7.png",
     "static/media/rocks.png": "/my-website/static/media/rocks.760a17f8a70852ef8d5a.png",
-    "static/media/michael_salton_resume.pdf": "/my-website/static/media/michael_salton_resume.f8473a0836bb4d1c8308.pdf",
+    "static/media/michael_salton_resume.pdf": "/my-website/static/media/michael_salton_resume.7857db93e9585343ad7f.pdf",
     "static/media/website.png": "/my-website/static/media/website.2d3ba260d77afd2056cd.png",
     "static/media/CV.png": "/my-website/static/media/CV.dd7f79543c7665b8d450.png",
     "index.html": "/my-website/index.html",
-    "main.16020c62.css.map": "/my-website/static/css/main.16020c62.css.map",
-    "main.cb7925a7.js.map": "/my-website/static/js/main.cb7925a7.js.map",
+    "main.9cb2e2cb.css.map": "/my-website/static/css/main.9cb2e2cb.css.map",
+    "main.ba56ceef.js.map": "/my-website/static/js/main.ba56ceef.js.map",
     "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16020c62.css",
-    "static/js/main.cb7925a7.js"
+    "static/css/main.9cb2e2cb.css",
+    "static/js/main.ba56ceef.js"
   ]
 }
