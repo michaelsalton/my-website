@@ -200,48 +200,77 @@ a:active {
 }
 
 .project1 {
-  width: 20%;
-  height: 65%;
+  width: 15%;
+  height: 45%;
   top: 10%;
   left: 10%;
   text-align: left;
-  background-color: #d0d0d0;
   position: relative;
   padding: 1%;
   color: #828282;
   transition: transform .2s; /* Animation */
   border-radius: 20px;
   float: left;
+  background-color: #84a29d;
 }
 
 .project2 {
-  width: 20%;
-  height: 65%;
+  width: 15%;
+  height: 45%;
   top: 10%;
-  left: 17%;
+  left: 14%;
   text-align: left;
-  background-color: #d0d0d0;
   position: relative;
   padding: 1%;
   color: #828282;
   transition: transform .2s; /* Animation */
   border-radius: 20px;
   float: left;
+  background-color: #84a29d;
 }
 
 .project3 {
-  width: 20%;
-  height: 65%;
+  width: 15%;
+  height: 45%;
   top: 10%;
-  left: -10%;
+  left: 18%;
   text-align: left;
-  background-color: #d0d0d0;
   position: relative;
   padding: 1%;
   color: #828282;
   transition: transform .2s; /* Animation */
   border-radius: 20px;
-  float: right;
+  float: left;
+  background-color: #84a29d;
+}
+
+.project4 {
+  width: 15%;
+  height: 45%;
+  top: 10%;
+  left: 22%;
+  text-align: left;
+  position: relative;
+  padding: 1%;
+  color: #828282;
+  transition: transform .2s; /* Animation */
+  border-radius: 20px;
+  float: left;
+  background-color: #84a29d;
+}
+
+#projects a{
+  color: #606060;
+  font-size: small;
+}
+
+#projects a:hover{
+  color: #606060;
+  font-size: small;
+}
+
+#projects h3 {
+  color: #606060;
 }
 
 .about {
@@ -296,15 +325,19 @@ a:active {
 }
 
 .project1:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .project2:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .project3:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.project4:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .tree:active {

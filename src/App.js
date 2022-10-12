@@ -13,6 +13,7 @@ import tree from './images/tree.png';
 import map from './images/map.png';
 import ue4 from './images/ue4.png';
 import website from './images/website.png';
+import car from './images/car.png';
 
 function App() {
   return (
@@ -98,29 +99,45 @@ function App() {
             </div>
 
             <div class="project1">
-              <img src={map} alt="" width="100%" height="55%" class="roundCorners"/>
-              <h3> Product Locator App</h3>
-              <p> An application I independantly made for Peavey Industries L.P. Its purpose is to 
-                display thee location of a product on the map. It was made using 
-                Swift and AutoCAD.
-              </p>
+              <a href="https://medium.com/@msalton6/warehouse-any-speed-run-d4750969c0ed">
+                <img src={map} alt="" width="100%" height="55%" class="roundCorners"/>
+                <h3> Product Locator App</h3>
+                <p> An application I independantly made for Peavey Industries L.P. Its purpose is to 
+                  display thee location of a product on the map. It was made using 
+                  Swift and AutoCAD.
+                </p>
+              </a>
             </div>
 
             <div class="project2">
-            <img src={ue4} alt="" width="100%" height="55%" class="roundCorners"/>
-            <h3> Unreal Engine Video Game </h3>
-              <p> I made a Nordic horror themed game based around exploration and immersion. 
-                It was made using Unreal Engine, C++, Blender, Photoshop, and Quixel Megascans.
-              </p>
+              <a href="https://www.tiktok.com/@michaelsalton">
+                <img src={ue4} alt="" width="100%" height="55%" class="roundCorners"/>
+                <h3> Unreal Engine Video Game </h3>
+                <p> I made a Nordic horror themed game based around exploration and immersion. 
+                  It was made using Unreal Engine, C++, Blender, Photoshop, and Quixel Megascans.
+                </p>
+              </a>
             </div>
 
             <div class="project3">
-            <img src={website} alt="" width="100%" height="55%" class="roundCorners"/>
-            <h3> Personal Website </h3>
-              <p> My personal website I made using React, HTML, and CSS.
-                I plan to continue to improve my website as my web development skills evolve.
-              </p>
+              <a href="michaelsalton.github.io/my-website">
+                <img src={website} alt="" width="100%" height="55%" class="roundCorners"/>
+                <h3> Personal Website </h3>
+                <p> My personal website I made using React, HTML, and CSS.
+                  I plan to continue to improve my website as my web development skills evolve.
+                </p>
+              </a>
             </div>
+
+            <div class="project4">
+              <a href="https://www.tiktok.com/@michaelsalton">
+                <img src={car} alt="" width="100%" height="55%" class="roundCorners"/>
+                <h3> Autonomos Car </h3>
+                <p> A small car a friend and I built with an Arduino. I programmed the movement of the car using C.
+                </p>
+              </a>
+            </div>
+
           </div>
         </div>  {/* End of projects div */}
 
@@ -133,7 +150,7 @@ function App() {
         </div> {/* End of top footer div */}
 
         <footer>
-          <div class="footerLinks">
+          <div class="footerLinks" id="contact">
             <a href="https://www.linkedin.com/in/msalton/">
               <p> LinkedIn </p>
             </a>
