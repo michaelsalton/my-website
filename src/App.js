@@ -83,7 +83,7 @@ function App() {
               video game development. I am profficient with a multitude of languages and software including:
               Java, Python, C, C#, C++, Swift, React, HTML, CSS, Unix/Linux, Unreal Engine, Unity, 
               Arm Assembly, and more.</p>
-              <p> I am currently working as an Application Developer at Peavey Industries L.P. Here,
+              <p> I am currently working as a Lead Software Engineer at Peavey Industries L.P. Here,
                  I founded a new development team that works on creating warehouse software applications
                 related to inventory management, databases, and navigation.</p>
               <p> I am currently looking for 2023 internship opportunities.</p>
